@@ -1,0 +1,19 @@
+.item {
+    background-color: aqua;
+}
+.status {
+    background-color: aqua;
+}
+.avatar {
+    background-color: aqua;
+}
+.name {
+    background-color: aqua;
+}
+.online {
+    background-color: aqua;
+}
+
+.offline {
+    background-color: rgb(99, 66, 51);
+}
