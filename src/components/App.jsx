@@ -26,9 +26,7 @@ const App = () => {
       <Container>
         <FriendList friends={friends} />
       </Container>
-      <Container>
       <TransactionHistory items={transactions} />
-      </Container>
     </>
   );
 };
