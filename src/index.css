@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -7,8 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-body {
+
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -25,9 +24,10 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 img {
-  display: block;
+  /* display: block; */
   max-width: 100%;
   height: auto;
 }
