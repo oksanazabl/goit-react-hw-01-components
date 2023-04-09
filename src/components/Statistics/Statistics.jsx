@@ -13,7 +13,7 @@ const Statistics = ({ title, stats }) => {
             <li className={css.item}
             key={id}style={{backgroundColor:randomColor()}}>
               <span className={css.label}>{label}</span>
-              <span className={css.percentage}>{percentage}</span>
+              <span className={css.percentage}>{percentage}%</span>
             </li>
           );
         })}
