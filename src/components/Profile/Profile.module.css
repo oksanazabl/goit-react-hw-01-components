@@ -1,5 +1,12 @@
 .profile {
   text-align: center;
+  width: 500px;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 1px 3px rgb(0 0 0/12%), 0 1px 1px rgb(0 0 0/14%), 0 2px 1px rgb(0 0 0/20%);
+
 }
 
 .description {
@@ -10,7 +17,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+ }
 
 .avatar {
   width: 300px;
