@@ -22,6 +22,7 @@ const App = () => {
       </Container>
       <Container>
         <Statistics title="Upload stats" stats={data} />
+        {/* <Statistics stats={data} /> */}
       </Container>
       <Container>
         <FriendList friends={friends} />
